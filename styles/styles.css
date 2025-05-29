@@ -1,0 +1,79 @@
+body {
+    color: black;
+    background: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header, footer {
+    display: flex;
+    padding: 25px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    grid-gap: 60px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.box {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero {
+    color: white;
+    background: red;
+}
+
+aside {
+    color: white;
+    background: blue;
+}
+
+.articlesBox {
+    color: white;
+    background: green;
+    display: grid;
+    gap: 15px;
+}
+
+main {
+    gap: 25px;
+    display: grid;
+    min-height: 65dvh;
+    grid-template-rows: 20% 1fr;
+}
+
+.boxesSection {
+    gap: 25px;
+    display: grid;
+    grid-template-columns: 40% 1fr;
+}
+
+.block {
+    background: cyan;
+    padding: 40px;
+}
+
+article {
+    gap: 20px;
+    display: grid;
+    grid-template-columns: 10% 1fr;
+}
+
+.mid {
+    direction: rtl;
+}
